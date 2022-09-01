@@ -1,0 +1,54 @@
+ملف سكربت في fontawsome عشان يحول الي svg
+
+شاشات كبيره 3
+p-lg-3
+
+
+
+كلاس 
+sticky-topبخليه ثابت في اعلي
+
+
+
+d-none
+
+font-sizث مثل  h5
+fs-5
+
+
+
+كلاس
+text-white-50
+
+يكون الحروف كبيره
+text-uppercase
+
+
+postion-relative
+
+
+line-height-large
+
+شكل حو
+rounded-pill
+
+
+bg-white
+
+
+من شاشات وسط يبدا يجي علي بدايه
+text-md-start
+
+width:100%
+w-100
+
+
+
+
+ul class
+list-unstyled
+line-height large
+lh-lg
+
+
+gap-3

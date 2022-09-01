@@ -1,0 +1,47 @@
+/* 
+font-family: 'Libre Baskerville', serif;
+font-family: 'Nova Square', cursive; */
+body {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    overflow-x: hidden;
+}
+a{
+    text-decoration:none !important;
+}
+.logo{
+    width: 165px;
+    height: 137px;
+}
+.navbar{
+    background:transparent !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color:#000;
+    font-size: 17px !important ; 
+    margin: 12px;
+    transition: all 0.3s ease;
+}
+.nav-link:hover{
+    font-weight: bold;
+    border-bottom: 2px solid #8DBF47;
+}
+
+footer{
+    background-image: url("../image/footer.png");
+    width: 101%;
+}
+
+
+
+@media(max-width:700px){
+    .navbar-collapse{
+        height: 660px !important;
+    }
+
+    footer{
+        width: 100% !important;
+        background-repeat: no-repeat !important;
+        background-size: 1600px 760px !important;
+    }
+}
