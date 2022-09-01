@@ -36,7 +36,6 @@
         padding-top: 30px;
     }
 
-    .sidebar .content-sidebar {}
 
     textarea {
         width: 546px;
@@ -181,7 +180,8 @@
         }
 
         .comment:not(:last-child) {
-            width: 300px;
+            width: 373px;
+            padding: 9px;
         }
 
         .btn-calc {
@@ -192,6 +192,15 @@
             border: 0;
             color: white;
             margin-right: 50px;
+        }
+
+        textarea {
+            width: 346px !important;
+            height: 106px;
+            border-radius: 12px !important;
+            border: 2px solid #8DBF47 !important;
+            box-shadow: -2px -4px 8px #eee;
+            margin-right: -22px;
         }
     }
 </style>
