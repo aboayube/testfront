@@ -171,6 +171,17 @@
         .btn-calc {
             top: 240px;
         }
+
+        .title-comments {
+
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .comments {
+
+            margin-right: 24px;
+        }
     }
 </style>
 <div class="container pt-5">
@@ -220,7 +231,7 @@
 <!-- users comments -->
 <div class="container">
     <div class="comments ">
-        <h5 class="h3">تعليقات المستخدمين</h5>
+        <h5 class="h3 title-comments">تعليقات المستخدمين</h5>
         <div class="d-flex comment">
             <img src="image/docotor2.jfif">
             <div class="data">
