@@ -7,31 +7,72 @@
         border-radius: 15px;
     }
 
+    .static-header-data {
+        justify-content: space-between;
+    }
+
+    .static-data {
+        justify-content: space-around;
+    }
+
+    .intro-docotor {
+        margin-right: 8px;
+    }
+
+    .spical-doctor {
+        margin-top: 13px;
+    }
+
     h1 {
         color: #8dbf47
     }
 
-
-
-    .spical {
-
-        font-size: 18px;
+    .booking-date {
+        border-top: 2px solid #8dbf47b8;
+        margin-top: 26px;
+        padding-top: 16px;
+        border-bottom: 2px solid #8dbf47b8;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 
-    .mobile-btn-calc {
-        display: none;
-        width: 242px;
+    .input-calc {
+        margin-right: 7px;
+        background: #E6F1D8;
+        border-radius: 12px;
+        border: none;
+        width: 324px;
+        height: 41px;
+        padding-right: 14px;
+        outline: none;
+        margin-top: 15px;
+    }
+
+    textarea {
+        margin-right: 7px;
+        width: 325px;
+        background: #E6F1D8;
+        border-radius: 12px;
+        border: none;
+        height: 99px;
+        padding-right: 14px;
+        outline: none;
+        margin-top: 15px;
+    }
+
+    .btn-calc {
+        width: 143px;
         height: 41px;
         border-radius: 8px;
         background: #8DBF47;
         border: 0;
         color: white;
-        margin-right: 220px;
+        margin-right: 50px;
+        top: 102px;
     }
 
-    .statics-docotor {
-        justify-content: space-around;
-        font-size: 20px;
+    .comment {
+        width: 836px;
     }
 
     .comment {
@@ -52,6 +93,10 @@
         border-radius: 13px;
     }
 
+    .comment-details {
+        width: 636px;
+    }
+
     .comment .data {
         padding: 10px;
         margin-right: 10px;
@@ -61,135 +106,80 @@
         color: orange
     }
 
-    .input-calc {
-        margin-right: 7px;
-        width: 362px;
-        background: #E6F1D8;
-        border-radius: 12px;
-        border: none;
-        height: 41px;
-        padding-right: 14px;
-        outline: none;
-        margin-top: 15px;
-    }
-
-    textarea {
-        margin-right: 7px;
-        width: 362px;
-        background: #E6F1D8;
-        border-radius: 12px;
-        border: none;
-        height: 99px;
-        padding-right: 14px;
-        outline: none;
-        margin-top: 15px;
-    }
-
-    .btn-calc {
-        width: 221px;
-        height: 41px;
-        border-radius: 8px;
-        background: #8DBF47;
-        border: 0;
-        color: white;
-        margin-right: 50px;
-        position: absolute;
-        top: 102px;
-    }
-
-    .static-data {
-
-        gap: 92px;
-        font-size: 20px;
-    }
-
-    .intro-docotor {
-        color: #333;
-        margin-right: 11px;
-    }
-
-    .booking-date {
-
-        border-top: 1px solid #8dbf47b8;
-        padding-top: 16px;
-    }
-
-    .header-data {
-        margin-right: 46px;
-
-    }
-
-    .booking-date span {
-        font-size: 20px;
-        margin-right: 15px;
-    }
-
-    .comment-details {
-        width: 700px;
-    }
-
-    .spical-doctor {
-
-        margin-top: 16px;
-        margin-right: 13px;
-
-    }
-
-    .register-date {
-        position: relative;
-    }
-
     @media(max-width:700px) {
-        .comment-details {
-            width: 240px;
+
+        .image-docotor {
+            width: 387px;
+            order: 1;
+        }
+
+        .docotor-data {
+            order: 2
+        }
+
+
+
+        .static-header-data h1 {
+            font-size: 20px;
+            font-weight: bold;
         }
 
         .spical-doctor {
-
-            text-align: center;
-        }
-
-        .static-header-data {
-            flex-direction: column;
+            margin-right: 4px;
+            font-size: 16px
         }
 
         .static-data {
-            gap: 40px;
-            font-size: 18px
-        }
-
-        .register-date {
-            padding-bottom: 29px;
+            margin-top: -8px;
+            justify-content: space-between;
         }
 
         .input-calc,
         textarea {
-            width: 319px;
-            margin-right: 0;
+            width: 354px;
+            margin-right: 16px;
         }
+
 
         .btn-calc {
-            top: 240px;
+            width: 133px;
+            height: 35px;
+            margin-top: 20px;
+            margin-right: 30%;
         }
 
-        .title-comments {
 
-            text-align: center;
+        .comment {
             margin-top: 15px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            gap: 20px;
+            width: 100%;
         }
 
-        .comments {
+        .comment-details {
+            width: 170px;
+        }
 
-            margin-right: 24px;
+        .comment:not(:last-child) {
+
+            border-bottom: 2px solid #8dbf47;
+        }
+
+        .comment img {
+            width: 140px;
+            height: 150px;
+            border: 2px solid #8dbf47;
+            border-radius: 13px;
         }
     }
 </style>
+
+
 <div class="container pt-5">
     <div class="row">
-        <div class="col-md-4">
-            <img src="image/docotor2.jfif" class="image-docotor">
-        </div>
-        <div class="col-md-8">
+
+        <div class="col-md-8 docotor-data">
 
             <div class="header-data">
                 <div class="d-flex p-2 static-header-data">
@@ -202,8 +192,8 @@
                 </div>
                 <p class="intro-docotor">اخصائي تغذية لدي خبرة مدتها اخصائي تغذية لدي خبرة مدتهااخصائي تغذية لدي خبرة مدتهااخصائي تغذية لدي خبرة مدتهااخصائي تغذية لدي خبرة مدتهااخصائي تغذية لدي خبرة مدتهااخصائي تغذية لدي خبرة مدتها</p>
             </div>
-            <div class="booking-date m-5">
-                <span>حجز موعد</span>
+            <div class="booking-date ">
+                <h5 class="text-center h3">حجز موعد</h5>
                 <form action="" class="register-date">
                     <select name="" id="" class="input-calc">
                         <option value="">اختر يوم مناسب</option>
@@ -225,6 +215,9 @@
                 </form>
             </div>
 
+        </div>
+        <div class="col-md-4">
+            <img src="image/docotor2.jfif" class="image-docotor">
         </div>
     </div>
 </div>

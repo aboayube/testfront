@@ -38,35 +38,61 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">اخصائين تغذية </a>
+                        <a href="" class="nav-link" href="#">اخصائين تغذية </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link ">استشارات
+                        <a href="" class="nav-link ">استشارات
                             تغذية اونلاين</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ">مطبخ</a>
+                        <a href="" class="nav-link ">مطبخ</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            اقسام
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="" class="dropdown-item" href="#">Action</a></li>
+                            <li><a href="" class="dropdown-item" href="#">Another action</a></li>
+
+                            <li><a href="" class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="" class="nav-link "> حاسبات القيم </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ">اقسام</a>
+                        <a href="" class="nav-link ">واصل معنا</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link "> حاسبات القيم </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ">واصل معنا</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ">اشترك معنا</a>
+                        <a href="" class="nav-link ">اشترك معنا</a>
                     </li>
                 </ul>
-                <div class="d-flex" role="search">
-                    <a href="">تسجيل حساب جديد</a>
-                    <a href="">تسجيل دخول</a>
+                <div class="d-flex user-bar" role="search">
+
+                    <span class="notification nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </span>
+
+                    <a href="" class="register"> مستخدم جديد</a>
+                    <a href="" class="login">تسجيل دخول</a>
                 </div>
             </div>
         </div>
